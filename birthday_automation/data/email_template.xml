@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="birthday_email_template" model="mail.template">
+        <field name="name">Employee Birthday</field>
+        <field name="model_id" ref="model_hr_employee" />
+        <field name="email_from">test@test.com</field>
+        <!-- <field name="email_to">{{ object.work_email }}</field> -->
+        <field name="email_to">cmal@odoo.com</field>
+        <field name="subject">Happy birthday!</field>
+        <field name="body_html" type="html">
+            <div>
+                Dear EMPLOYEE,
+                We would like to wish you a very happy
+                birthday!
+                Regards,
+                YOUR COMPANY
+            </div>
+        </field>
+    </record>
+</odoo>
