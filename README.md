@@ -7,6 +7,7 @@
 - [ ] Create email template that gets employee name and birthday and creates the email
 - [ ] Set up automation that checks every day if the current day matches an employee's birth day and month
 - [ ] Create email automation for detected birthdays
+- [ ] Test emails
 
 ## Issues/Blocking Points
 - [X] Sending emails via Odoo in a testing environment
