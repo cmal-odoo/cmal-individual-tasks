@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_website_layout" inherit_id="website.layout">
+        <xpath expr="//header" position="inside">
+            <div class="custom-header-option">
+                <button type="button" id="toggle_hide_prices" class="btn btn-primary">Toggle Prices</button>
+                <p>This is a test to see if the checkbox is showing up or not</p>
+            </div>
+        </xpath>
+    </template>
+</odoo>
